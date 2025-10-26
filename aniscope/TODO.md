@@ -1,0 +1,11 @@
+- Replace placeholder values in <HeroSearh/> with actual values
+  - file: "/src/components/HomeHero 
+- Add home page hero search funcitonality 
+  - Component: <HomeHero /> -> <HeroSearch />
+- Add home page favourites functionality
+  - Component: <PopularSection /> -> <PopularGrid />
+- Implement favourites functionality
+  - Component: <PopularSection /> -> <PopularGrid />
+- Make hovering cursor on hero buttons
+  - SET SHADCN BUTTON STYLING TO CURSOR POINTER BY DEFAULT
+- Add acutal ratings, eps, to home page popular card badges

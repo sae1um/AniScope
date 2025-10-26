@@ -25,7 +25,7 @@ export default function Navbar() {
                         Favourites
                     </Link>
                 </nav>
-                <Button size="sm" className="hidden cursor-pointer md:flex hover:opacity-80">
+                <Button size="sm" className="hidden md:flex hover:opacity-80">
                     Sign In
                 </Button>
             </div>

@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
-import { Separator } from "./ui/separator";
+import { Separator } from "@/components/ui/separator";
 
 export default function HomeHero() {
     const [searchQuery, setSearchQuery] = useState("");
@@ -39,8 +39,8 @@ function HeroHeader() {
                 discover hidden gems in our curated colleciton.
             </p>
             <div className="space-x-3">
-                <Button>Start Eploring</Button>
-                <Button variant={"outline"}>View Trending</Button>
+                <Button><a href="/browse">Start Eploring</a></Button>
+                <Button variant={"outline"}><a href="/trending">View Trending</a></Button>
             </div>
         </div>
     );

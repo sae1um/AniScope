@@ -3,7 +3,7 @@
 export default function BrowsePage(){
     return (
         <div>
-            BrowsePage
+            BrowsePage 
         </div>
     )
 }
